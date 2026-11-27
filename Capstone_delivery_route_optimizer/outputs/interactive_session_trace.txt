@@ -1,0 +1,258 @@
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: [ERROR] Graph is empty - load a file (1) or generate a city (2) first
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: JSON path [/home/claude/delivery_route_optimizer/data/sample_city.json]: Loaded 12 locations, 19 roads, 11 deliveries, depot=Depot
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: {'locations': 12, 'roads': 19, 'components': 1, 'connected': True, 'avg_degree': 3.17}
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Source: Destination: Algorithm ['dijkstra', 'dijkstra_array', 'bellman_ford', 'astar'] [dijkstra]: [ERROR] Unknown location 'ZZZ'
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Source: Destination: Algorithm ['dijkstra', 'dijkstra_array', 'bellman_ford', 'astar'] [dijkstra]: Shortest distance = 109.49
+Path: A -> B -> Depot -> K -> F
+Nodes expanded: 9
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Location: Deadline (min) [300.0]: Priority 1-5 [3]: Demand units [1]: Service time (min) [2.0]: [ERROR] Delivery location 'Q' is not in the graph
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Invalid choice - enter a number from the menu.
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Location: Deadline (min) [300.0]: [ERROR] Invalid input 'abc' (expected float)
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Invalid choice - enter a number from the menu.
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Strategy ['nearest', 'priority', 'edf', 'nearest+2opt'] [nearest+2opt]: 
+--- nearest+2opt ---
+Order      : J -> B -> A -> I -> H -> G -> F -> E -> K -> D -> C
+Distance   : 334.7    Finish time: 361.7 min
+On-time    : 91%   Late stops: ['K']   Total lateness: 45.8
+Map saved to /home/claude/delivery_route_optimizer/outputs/route_nearest_2opt.png
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: 
+      strategy  distance   finish  late  lateness
+       nearest     334.7    361.7     1      45.8
+      priority     525.6    552.6     4     205.1
+           edf     581.0    608.0     7     493.0
+  nearest+2opt     334.7    361.7     1      45.8
+Chart saved to /home/claude/delivery_route_optimizer/outputs/strategy_comparison.png
+Best (fewest late, then shortest): nearest
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Vehicles [3]: Capacity per vehicle [8]: 
+--- Vehicle 1 ---
+Order      : J -> B -> A -> I -> G
+Distance   : 188.2    Finish time: 199.2 min
+On-time    : 100%   Late stops: none   Total lateness: 0.0
+
+--- Vehicle 2 ---
+Order      : K -> D -> C
+Distance   : 125.9    Finish time: 133.9 min
+On-time    : 100%   Late stops: none   Total lateness: 0.0
+
+--- Vehicle 3 ---
+Order      : H -> F
+Distance   : 164.8    Finish time: 169.8 min
+On-time    : 100%   Late stops: none   Total lateness: 0.0
+
+UNASSIGNED stops (unreachable / demand>capacity / not enough vehicles): ['E']
+Map saved to /home/claude/delivery_route_optimizer/outputs/fleet_plan.png
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: JSON path [/home/claude/delivery_route_optimizer/data/sample_city.json]: Loaded 14 locations, 20 roads, 12 deliveries, depot=Depot
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: {'locations': 14, 'roads': 20, 'components': 2, 'connected': False, 'avg_degree': 2.86}
+WARNING: graph is disconnected. Components:
+   ['A', 'B', 'C', 'D', 'Depot', 'E', 'F', 'G', 'H', 'I', 'J', 'K'] 
+   ['Island1', 'Island2'] 
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Source: Destination: Algorithm ['dijkstra', 'dijkstra_array', 'bellman_ford', 'astar'] [dijkstra]: No route exists from A to Island1 (different components). Nodes explored: 12
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: 
+      strategy  distance   finish  late  lateness
+       nearest     334.7    361.7     1      45.8
+      priority     525.6    552.6     4     205.1
+           edf     581.0    608.0     7     493.0
+  nearest+2opt     334.7    361.7     1      45.8
+Unreachable stops skipped: ['Island1']
+Chart saved to /home/claude/delivery_route_optimizer/outputs/strategy_comparison.png
+Best (fewest late, then shortest): nearest
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: JSON path [/home/claude/delivery_route_optimizer/data/sample_city.json]: [ERROR] Road weight must be a finite number > 0 (negative weights are invalid)
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Goodbye!

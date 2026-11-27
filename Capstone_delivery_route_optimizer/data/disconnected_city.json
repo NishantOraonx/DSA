@@ -1,0 +1,263 @@
+{
+  "depot": "Depot",
+  "locations": [
+    {
+      "id": "Depot",
+      "x": 50,
+      "y": 50
+    },
+    {
+      "id": "A",
+      "x": 20,
+      "y": 80
+    },
+    {
+      "id": "B",
+      "x": 35,
+      "y": 65
+    },
+    {
+      "id": "C",
+      "x": 70,
+      "y": 85
+    },
+    {
+      "id": "D",
+      "x": 85,
+      "y": 60
+    },
+    {
+      "id": "E",
+      "x": 90,
+      "y": 30
+    },
+    {
+      "id": "F",
+      "x": 65,
+      "y": 15
+    },
+    {
+      "id": "G",
+      "x": 40,
+      "y": 20
+    },
+    {
+      "id": "H",
+      "x": 15,
+      "y": 35
+    },
+    {
+      "id": "I",
+      "x": 10,
+      "y": 60
+    },
+    {
+      "id": "J",
+      "x": 55,
+      "y": 70
+    },
+    {
+      "id": "K",
+      "x": 75,
+      "y": 45
+    },
+    {
+      "id": "Island1",
+      "x": 5,
+      "y": 5
+    },
+    {
+      "id": "Island2",
+      "x": 10,
+      "y": 8
+    }
+  ],
+  "roads": [
+    [
+      "Depot",
+      "B",
+      23.33
+    ],
+    [
+      "Depot",
+      "J",
+      22.68
+    ],
+    [
+      "Depot",
+      "K",
+      28.04
+    ],
+    [
+      "Depot",
+      "G",
+      34.79
+    ],
+    [
+      "Depot",
+      "H",
+      41.89
+    ],
+    [
+      "A",
+      "B",
+      23.33
+    ],
+    [
+      "A",
+      "I",
+      24.6
+    ],
+    [
+      "B",
+      "I",
+      28.04
+    ],
+    [
+      "B",
+      "J",
+      22.68
+    ],
+    [
+      "J",
+      "C",
+      23.33
+    ],
+    [
+      "C",
+      "D",
+      32.07
+    ],
+    [
+      "D",
+      "K",
+      19.83
+    ],
+    [
+      "D",
+      "E",
+      33.46
+    ],
+    [
+      "K",
+      "E",
+      23.33
+    ],
+    [
+      "E",
+      "F",
+      32.07
+    ],
+    [
+      "F",
+      "G",
+      28.04
+    ],
+    [
+      "G",
+      "H",
+      32.07
+    ],
+    [
+      "H",
+      "I",
+      28.04
+    ],
+    [
+      "K",
+      "F",
+      34.79
+    ],
+    [
+      "Island1",
+      "Island2",
+      6.0
+    ]
+  ],
+  "deliveries": [
+    {
+      "node": "A",
+      "deadline": 270,
+      "priority": 3,
+      "demand": 2,
+      "service_time": 3
+    },
+    {
+      "node": "B",
+      "deadline": 120,
+      "priority": 5,
+      "demand": 1,
+      "service_time": 2
+    },
+    {
+      "node": "C",
+      "deadline": 330,
+      "priority": 2,
+      "demand": 3,
+      "service_time": 4
+    },
+    {
+      "node": "D",
+      "deadline": 360,
+      "priority": 4,
+      "demand": 2,
+      "service_time": 2
+    },
+    {
+      "node": "E",
+      "deadline": 450,
+      "priority": 1,
+      "demand": 4,
+      "service_time": 3
+    },
+    {
+      "node": "F",
+      "deadline": 390,
+      "priority": 3,
+      "demand": 2,
+      "service_time": 2
+    },
+    {
+      "node": "G",
+      "deadline": 180,
+      "priority": 5,
+      "demand": 1,
+      "service_time": 2
+    },
+    {
+      "node": "H",
+      "deadline": 300,
+      "priority": 2,
+      "demand": 3,
+      "service_time": 3
+    },
+    {
+      "node": "I",
+      "deadline": 240,
+      "priority": 4,
+      "demand": 2,
+      "service_time": 2
+    },
+    {
+      "node": "J",
+      "deadline": 150,
+      "priority": 5,
+      "demand": 1,
+      "service_time": 2
+    },
+    {
+      "node": "K",
+      "deadline": 210,
+      "priority": 3,
+      "demand": 2,
+      "service_time": 2
+    },
+    {
+      "node": "Island1",
+      "deadline": 600,
+      "priority": 2,
+      "demand": 1,
+      "service_time": 1
+    }
+  ]
+}

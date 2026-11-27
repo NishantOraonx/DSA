@@ -1,0 +1,38 @@
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option:                  V |                  E |   dijkstra_heap_ms |       astar_p2p_ms |  dijkstra_array_ms |    bellman_ford_ms |  floyd_warshall_ms
+                50 |                 95 |               0.04 |               0.06 |               0.09 |               0.08 |               2.85
+               100 |                191 |               0.08 |                0.1 |               0.23 |                0.4 |              19.64
+               250 |                461 |               0.18 |               0.23 |               1.29 |               1.56 |                  -
+               500 |                942 |               0.55 |               0.67 |               4.45 |               3.15 |                  -
+              1000 |               1862 |               0.79 |               1.54 |              14.28 |               8.13 |                  -
+              2000 |               3782 |               1.44 |               2.61 |              46.01 |              17.25 |                  -
+              5000 |               9365 |               4.75 |               7.22 |                  - |                  - |                  -
+             stops | distance_matrix_ms |         nearest_ms |        priority_ms |             edf_ms |    nearest+2opt_ms
+                10 |              13.99 |               0.07 |               0.04 |               0.05 |                0.5
+                25 |              29.23 |                0.3 |               0.15 |               0.03 |               5.88
+                50 |              85.38 |               1.47 |               1.24 |               0.15 |              52.43
+               100 |             148.79 |               3.31 |                2.7 |               0.15 |             420.69
+               150 |             238.36 |               6.53 |               5.94 |               0.23 |            1711.64
+CSV + PNG saved in /home/claude/delivery_route_optimizer/outputs
+
+==================== SMART DELIVERY ROUTE OPTIMIZER ====================
+ 1) Load problem from JSON         8) Add delivery request
+ 2) Generate random city           9) List deliveries
+ 3) Graph summary / connectivity  10) Run one scheduling strategy
+ 4) Add location                  11) Compare all strategies (+chart)
+ 5) Add road                      12) Multi-vehicle fleet plan (+map)
+ 6) Remove road                   13) Benchmark algorithms
+ 7) Shortest path A -> B          14) Save problem to JSON
+ 0) Exit
+========================================================================
+Choose option: Goodbye!

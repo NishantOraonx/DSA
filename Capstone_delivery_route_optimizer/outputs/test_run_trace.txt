@@ -1,0 +1,35 @@
+test_components (test_all.TestGraph.test_components) ... ok
+test_duplicate_location (test_all.TestGraph.test_duplicate_location) ... ok
+test_empty_name (test_all.TestGraph.test_empty_name) ... ok
+test_negative_and_zero_weight (test_all.TestGraph.test_negative_and_zero_weight) ... ok
+test_remove_road_and_location (test_all.TestGraph.test_remove_road_and_location) ... ok
+test_single_and_empty_graph (test_all.TestGraph.test_single_and_empty_graph) ... ok
+test_unknown_node_and_self_loop (test_all.TestGraph.test_unknown_node_and_self_loop) ... ok
+test_update_edge_does_not_double_count (test_all.TestGraph.test_update_edge_does_not_double_count) ... ok
+test_valid_build (test_all.TestGraph.test_valid_build) ... ok
+test_bad_delivery_entries (test_all.TestIO.test_bad_delivery_entries) ... ok
+test_bad_depot (test_all.TestIO.test_bad_depot) ... ok
+test_invalid_files (test_all.TestIO.test_invalid_files) ... ok
+test_large_graph_runs_fast (test_all.TestScale.test_large_graph_runs_fast) ... ok
+test_one_node_graph_generation (test_all.TestScale.test_one_node_graph_generation) ... ok
+test_2opt_never_worse_than_nearest (test_all.TestScheduler.test_2opt_never_worse_than_nearest) ... ok
+test_all_strategies_visit_every_stop_once (test_all.TestScheduler.test_all_strategies_visit_every_stop_once) ... ok
+test_disconnected_stop_skipped (test_all.TestScheduler.test_disconnected_stop_skipped) ... ok
+test_edf_order (test_all.TestScheduler.test_edf_order) ... ok
+test_empty_and_single_delivery (test_all.TestScheduler.test_empty_and_single_delivery) ... ok
+test_expand_route_is_valid_road_path (test_all.TestScheduler.test_expand_route_is_valid_road_path) ... ok
+test_fleet_capacity_respected (test_all.TestScheduler.test_fleet_capacity_respected) ... ok
+test_fleet_oversized_and_insufficient_vehicles (test_all.TestScheduler.test_fleet_oversized_and_insufficient_vehicles) ... ok
+test_lateness_detected (test_all.TestScheduler.test_lateness_detected) ... ok
+test_algorithms_agree_on_random_graphs (test_all.TestShortestPath.test_algorithms_agree_on_random_graphs) ... ok
+test_astar_with_cheap_weights_still_optimal (test_all.TestShortestPath.test_astar_with_cheap_weights_still_optimal) ... ok
+test_disconnected_unreachable (test_all.TestShortestPath.test_disconnected_unreachable) ... ok
+test_distance_matrix_and_path (test_all.TestShortestPath.test_distance_matrix_and_path) ... ok
+test_known_answer (test_all.TestShortestPath.test_known_answer) ... ok
+test_same_node (test_all.TestShortestPath.test_same_node) ... ok
+test_unknown_node (test_all.TestShortestPath.test_unknown_node) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.192s
+
+OK

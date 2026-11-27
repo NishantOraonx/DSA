@@ -1,0 +1,38 @@
+DEMO on /home/claude/delivery_route_optimizer/data/sample_city.json {'locations': 12, 'roads': 19, 'components': 1, 'connected': True, 'avg_degree': 3.17}
+
+Shortest A->F: 109.5 via A -> B -> Depot -> K -> F (expanded 12)
+
+      strategy  distance   finish  late  lateness
+       nearest     334.7    361.7     1      45.8
+      priority     525.6    552.6     4     205.1
+           edf     581.0    608.0     7     493.0
+  nearest+2opt     334.7    361.7     1      45.8
+Chart saved to /home/claude/delivery_route_optimizer/outputs/strategy_comparison.png
+Best (fewest late, then shortest): nearest
+
+--- Vehicle 1 ---
+Order      : J -> B -> A -> I -> G
+Distance   : 188.2    Finish time: 199.2 min
+On-time    : 100%   Late stops: none   Total lateness: 0.0
+
+--- Vehicle 2 ---
+Order      : K -> D -> C
+Distance   : 125.9    Finish time: 133.9 min
+On-time    : 100%   Late stops: none   Total lateness: 0.0
+
+--- Vehicle 3 ---
+Order      : H -> F
+Distance   : 164.8    Finish time: 169.8 min
+On-time    : 100%   Late stops: none   Total lateness: 0.0
+
+UNASSIGNED stops (unreachable / demand>capacity / not enough vehicles): ['E']
+
+Disconnected scenario: {'locations': 14, 'roads': 20, 'components': 2, 'connected': False, 'avg_degree': 2.86}
+
+--- Disconnected city ---
+Order      : J -> B -> A -> I -> H -> G -> F -> E -> K -> D -> C
+Distance   : 334.7    Finish time: 361.7 min
+On-time    : 91%   Late stops: ['K']   Total lateness: 45.8
+UNREACHABLE (skipped, graph disconnected): ['Island1']
+
+PNG charts written to /home/claude/delivery_route_optimizer/outputs
